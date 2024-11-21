@@ -22,5 +22,6 @@ This project is a simple and interactive web application for voting. Users can c
 - **CSS**: Styling for a visually appealing layout.
 - **JavaScript**: Handles voting functionality and dynamic updates.
 
-## Live Link:
+## 🌐 Live Link:
+ Site is live at [Vote Counter](https://meahadi-hasan.github.io/Vote-Counter).
 
