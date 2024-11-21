@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vote Count</h1>
+        <table>
+            <tr>
+                <th>Candidate</th>
+                <th>Votes</th>
+            </tr>
+            <tr>
+                <td>Hen</td>
+                <td id="henVotes">0</td>
+            </tr>
+            <tr>
+                <td>Speaker</td>
+                <td id="speakerVotes">0</td>
+            </tr>
+            <tr>
+                <td>Hand Fan</td>
+                <td id="fanVotes">0</td>
+            </tr>
+        </table>
+        
+        <div class="vote-section">
+            <h2>Cast Your Vote</h2>
+            <div class="vote-option">
+                <img src="Images/Hen.png" alt="Hen">
+                <button onclick="vote('hen')">Vote</button>
+            </div>
+            <div class="vote-option">
+                <img src="Images/Speaker.jpg" alt="Speaker">
+                <button onclick="vote('speaker')">Vote</button>
+            </div>
+            <div class="vote-option">
+                <img src="Images/Hand fan.jpg" alt="Hand Fan">
+                <button onclick="vote('fan')">Vote</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
