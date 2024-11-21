@@ -17,7 +17,10 @@ This project is a simple and interactive web application for voting. Users can c
 - Click the green "Vote" button next to your preferred candidate.
 - Watch the vote count update dynamically in the table above.
 
-## Technologies Used
+## 🛠️ Technologies Used
 - **HTML**: Structure of the web page.
 - **CSS**: Styling for a visually appealing layout.
 - **JavaScript**: Handles voting functionality and dynamic updates.
+
+## Live Link:
+
